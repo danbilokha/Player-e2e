@@ -1,0 +1,8 @@
+# compiled outputs
+/dist
+/out-tsc
+
+# dependencies
+/node_modules
+
+# git files

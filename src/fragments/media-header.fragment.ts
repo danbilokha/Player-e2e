@@ -1,0 +1,5 @@
+class MediaHeaderFragment {
+
+}
+
+export { MediaHeaderFragment };

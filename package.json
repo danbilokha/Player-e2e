@@ -2,7 +2,15 @@
   "name": "eso-e2e",
   "version": "1.0.0",
   "scripts": {
-    "run": "protractor protractor.conf.js"
+    "start": "protractor protractor.conf.js"
   },
-  "author": "DCptikons team"
+  "author": "DCptikons team",
+  "dependencies": {
+    "@types/jasmine": "^3.3.13",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.2",
+    "ts-node": "^8.3.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.2"
+  }
 }
