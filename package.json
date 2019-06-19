@@ -1,0 +1,8 @@
+{
+  "name": "eso-e2e",
+  "version": "1.0.0",
+  "scripts": {
+    "run": "protractor protractor.conf.js"
+  },
+  "author": "DCptikons team"
+}
