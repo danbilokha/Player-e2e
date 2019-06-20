@@ -9,6 +9,4 @@ const prodConfig = {
     }
 };
 
-console.log(prodConfig);
-
 exports.config = prodConfig;
