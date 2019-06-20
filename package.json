@@ -2,11 +2,13 @@
   "name": "eso-e2e",
   "version": "1.0.0",
   "scripts": {
-    "start": "protractor protractor.conf.js"
+    "start:dev": "protractor protractor.conf.js",
+    "start:prod": "protractor protractor.conf.prod.js"
   },
   "author": "DCptikons team",
   "dependencies": {
     "@types/jasmine": "^3.3.13",
+    "dotenv": "^8.0.0",
     "jasmine-spec-reporter": "^4.2.1",
     "protractor": "^5.4.2",
     "ts-node": "^8.3.0",
